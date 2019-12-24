@@ -17,6 +17,9 @@
 		22445139230389A8004306F3 /* ArrayBasedQueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22445133230389A8004306F3 /* ArrayBasedQueue.cpp */; };
 		2244513A230389A8004306F3 /* Node.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22445136230389A8004306F3 /* Node.cpp */; };
 		2244513B230389A8004306F3 /* LinkedBasedQueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22445138230389A8004306F3 /* LinkedBasedQueue.cpp */; };
+		224451412304ABCA004306F3 /* TreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2244513F2304ABCA004306F3 /* TreeNode.cpp */; };
+		224451442304AC77004306F3 /* BinaryTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 224451422304AC77004306F3 /* BinaryTree.cpp */; };
+		2294D9EF23B153D400CE6324 /* TreeTraversal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2294D9ED23B153D400CE6324 /* TreeTraversal.cpp */; };
 		22D2F983230126AF0024B191 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22D2F982230126AF0024B191 /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +56,12 @@
 		22445136230389A8004306F3 /* Node.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Node.cpp; sourceTree = "<group>"; };
 		22445137230389A8004306F3 /* Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
 		22445138230389A8004306F3 /* LinkedBasedQueue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LinkedBasedQueue.cpp; sourceTree = "<group>"; };
+		2244513F2304ABCA004306F3 /* TreeNode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TreeNode.cpp; sourceTree = "<group>"; };
+		224451402304ABCA004306F3 /* TreeNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TreeNode.h; sourceTree = "<group>"; };
+		224451422304AC77004306F3 /* BinaryTree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BinaryTree.cpp; sourceTree = "<group>"; };
+		224451432304AC77004306F3 /* BinaryTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BinaryTree.h; sourceTree = "<group>"; };
+		2294D9ED23B153D400CE6324 /* TreeTraversal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TreeTraversal.cpp; sourceTree = "<group>"; };
+		2294D9EE23B153D400CE6324 /* TreeTraversal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TreeTraversal.h; sourceTree = "<group>"; };
 		22D2F97F230126AF0024B191 /* DataStructures */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataStructures; sourceTree = BUILT_PRODUCTS_DIR; };
 		22D2F982230126AF0024B191 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -168,6 +177,12 @@
 		2244513E230395CA004306F3 /* BinaryTree */ = {
 			isa = PBXGroup;
 			children = (
+				2244513F2304ABCA004306F3 /* TreeNode.cpp */,
+				224451402304ABCA004306F3 /* TreeNode.h */,
+				224451422304AC77004306F3 /* BinaryTree.cpp */,
+				224451432304AC77004306F3 /* BinaryTree.h */,
+				2294D9ED23B153D400CE6324 /* TreeTraversal.cpp */,
+				2294D9EE23B153D400CE6324 /* TreeTraversal.h */,
 			);
 			path = BinaryTree;
 			sourceTree = "<group>";
@@ -259,7 +274,10 @@
 			files = (
 				22445139230389A8004306F3 /* ArrayBasedQueue.cpp in Sources */,
 				2244512D23037C6A004306F3 /* Node.cpp in Sources */,
+				2294D9EF23B153D400CE6324 /* TreeTraversal.cpp in Sources */,
 				224451162303324B004306F3 /* ArrayBasedStack.cpp in Sources */,
+				224451412304ABCA004306F3 /* TreeNode.cpp in Sources */,
+				224451442304AC77004306F3 /* BinaryTree.cpp in Sources */,
 				2244513B230389A8004306F3 /* LinkedBasedQueue.cpp in Sources */,
 				2244512823037BAB004306F3 /* LinkedBasedStack.cpp in Sources */,
 				22445122230369E1004306F3 /* Node.cpp in Sources */,

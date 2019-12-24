@@ -21,7 +21,7 @@ public:
     ArrayBasedQueue(int maxSize);
     ~ArrayBasedQueue(void);
     void Enqueue(T value);
-    void Dequeue();
+    T Dequeue();
     int Count();
     void Clear();
     void Display();

@@ -35,16 +35,17 @@ void LinkedBasedQueue<T>::Enqueue(T value)
 }
 
 template<class T>
-void LinkedBasedQueue<T>::Dequeue()
+T LinkedBasedQueue<T>::Dequeue()
 {
     if (count == 0) {
-        return;
+        return NULL;
     }
     
     Node<T> *removedNode = front;
     front = front->next;
     delete removedNode;
     count--;
+    return removedNode->data;
 }
 
 template<class T>

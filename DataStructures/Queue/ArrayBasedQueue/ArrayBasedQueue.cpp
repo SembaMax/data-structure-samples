@@ -36,20 +36,22 @@ void ArrayBasedQueue<T>::Enqueue(T value)
 }
 
 template<class T>
-void ArrayBasedQueue<T>::Dequeue()
+T ArrayBasedQueue<T>::Dequeue()
 {
     if (count == 0) {
-        return;
+        return NULL;
     }
     
+    T returnedValue = items[front];
     items[front] = NULL;
     count--;
     if (count == 0) {
         rear = -1;
         front = -1;
-        return;
+        return returnedValue;
     }
     front = (front + 1) % size;
+    return returnedValue;
 }
 
 template<class T>

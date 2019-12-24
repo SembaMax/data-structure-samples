@@ -5,9 +5,10 @@
 //  Created by SeMbA on 8/14/19.
 //  Copyright © 2019 SeMbA. All rights reserved.
 //
+#ifndef LinkedBasedQueue_h
+#define LinkedBasedQueue_h
 
 #include"Node.h"
-
 //LIFO
 template<class T>
 class LinkedBasedQueue
@@ -20,9 +21,11 @@ public:
     LinkedBasedQueue();
     ~LinkedBasedQueue(void);
     void Enqueue(T value);
-    void Dequeue();
+    T Dequeue();
     int Count();
     void Clear();
     void Display();
     void Peek();
 };
+
+#endif /* LinkedBasedQueue_h */
